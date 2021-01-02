@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link href="css/my_css.css" rel="stylesheet">
+   
+    </head>
+    <body>
+        <h1>Sailing</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Winter_Work_01.jpg" class="img-fluid img-thumbnail" alt="Winter work on my boat"/>
+                        <figcaption class="figure-caption">Winter work on my boat</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Sailing_01.jpg" class="img-fluid img-thumbnail" alt="Sailing 01"/>
+                        <figcaption class="figure-caption">Sailing 01</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Sailing_02.jpg" class="img-fluid img-thumbnail" alt="Sailing 02"/>
+                        <figcaption class="figure-caption">Sailing 02</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Watt_01.jpg" class="img-fluid img-thumbnail" alt="Watt 01"/>
+                        <figcaption class="figure-caption">In the Wadden Sea 01</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Watt_02.jpg" class="img-fluid img-thumbnail" alt="Watt 02"/>
+                        <figcaption class="figure-caption">In the Wadden Sea 02</figcaption>
+                    </figure>
+                </div>         
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Out_on_Northsea_01.jpg" class="img-fluid img-thumbnail" alt="Out on the Northsea 01"/>
+                        <figcaption class="figure-caption">Out on the North Sea 01</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Out_on_Northsea_02.jpg" class="img-fluid img-thumbnail" alt="Out on the Northsea 02"/>
+                        <figcaption class="figure-caption">Out on the North Sea 01</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Marina_Hooksiel_01.jpg" class="img-fluid img-thumbnail" alt="Marina Hooksiel"/>
+                        <figcaption class="figure-caption">Marina Hooksiel</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Marina_Spiekeroog_01.jpg" class="img-fluid img-thumbnail" alt="Marina Spiekeroog 01"/>
+                        <figcaption class="figure-caption">Marina Spiekeroog 01</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <figure>
+                        <img src="images/Marina_Spiekeroog_02.jpg" class="img-fluid img-thumbnail" alt="Marina Spiekeroog 02"/>
+                        <figcaption class="figure-caption">Marina Spiekeroog 02</figcaption>
+                    </figure>
+                </div>
+            </div>           
+        </div>
+        
+        <div class="table-responsive">
+        <table class="table table-bordered align-middle mytable">
+            <thead>
+                <tr>
+                    <th scope="col">Picture Capture</th>
+                    <th scope="col">Season</th>
+                    <th scope="col">Description</th>
+                    <th>Link to the pictures</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Winter work on my boat</td>
+                    <td>Spring 2020</td>
+                    <td>During winter time usually I do some work on my boat</td>
+                    <td><a href="images/Winter_Work_01.jpg" class="mylink">winter work</a></td>
+                </tr>
+                <tr>
+                    <td>Sailing 01</td>
+                    <td rowspan="2">Summer 2019</td>
+                    <td rowspan="2">Sailing on the Inner Jade</td>
+                    <td><a href="images/Sailing_01.jpg" class="mylink">Sailing Inner Jade</a></td>
+                </tr>
+                <tr>
+                    <td>Sailing 02</td>
+                    <td><a href="images/Sailing_02.jpg" class="mylink">Sailing Inner Jade</a></td>
+                </tr>
+                <tr>
+                    <td>Out on the North Sea 01</td>
+                    <td rowspan="2">Summer 2020</td>
+                    <td>Sailing on the North Sea</td>
+                    <td><a href="images/Out_on_Northsea_01.jpg" class="mylink">Sailing North Sea</a></td>
+                </tr>
+                <tr>
+                    <td>Out on the North Sea 02</td>                    
+                    <td>Sailing on the North Sea</td>
+                    <td><a href="images/Out_on_Northsea_02.jpg" class="mylink">Sailing North Sea</a></td>
+                </tr>
+                <tr>
+                    <td>Marina Hooksiel</td>
+                    <td>Spring 2020</td>
+                    <td>Our berth at Marina Hooksiel</td>
+                    <td><a href="images/Marina_Hooksiel_01.jpg" class="mylink">Berth Marina Hooksiel</a></td>
+                </tr>
+                <tr>
+                    <td>In the Wadden Sea 01</td>
+                    <td rowspan="2">Summer 2020</td>
+                    <td rowspan="2">On our way to Spiekeroog for summer vacation</td>
+                    <td><a href="images/Watt_01.jpg" class="mylink">Wadden Sea</a></td>
+                </tr>
+                <tr>
+                    <td>In the Wadden Sea 02</td>                                      
+                    <td><a href="images/Watt_02.jpg" class="mylink">Wadden Sea</a></td>
+                </tr>
+                <tr>
+                    <td>Marina Spiekeroog 01</td>
+                    <td rowspan="2">Summer 2020</td>
+                    <td rowspan="2">Summer vacation in the East Frisian Iland Spiekeroog</td>
+                    <td><a href="images/Marina_Spiekeroog_01.jpg" class="mylink">Marina Spiekeroog</a></td>
+                </tr>
+                <tr>
+                    <td>Marina Spiekeroog 02</td>                   
+                    <td><a href="images/Marina_Spiekeroog_02.jpg" class="mylink">Marina Spiekeroog</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <footer class="myfooter">
+            <p>Created by Manfred Grauvogl</p>
+        </footer>
+        
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+    </body>
+</html>
